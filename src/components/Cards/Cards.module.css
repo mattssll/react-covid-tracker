@@ -1,0 +1,25 @@
+.container {
+    margin: 50px 0; /* 50 on top and botton, 0 on left and right */
+}
+
+.card {
+    margin: 0 2% !important; /*2% on left and right, and material-ui requires the !important */
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5) /* 0.5 of oppacity in the end */
+}
+
+.recovered {
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5) /* 0.5 of oppacity in the end */
+}
+
+.deaths {
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5) /* 0.5 of oppacity in the end */
+}
+
+@media (max-width: 770px) {
+    .card {
+        margin: 2% 0 !important;
+    }
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(254, 254, 254);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* this will put the chart below the rest of the stuff instead of in the right */
+}
+
+.image {
+    width:370px;
+    margin-top:50px;
+}
+
+
+
+@media (max-width: 770px) {
+    .container {
+        margin: 0 10%;
+    }    
+
+    .image {
+        width:100%;
+    }
+}
